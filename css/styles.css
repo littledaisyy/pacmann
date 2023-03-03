@@ -11,6 +11,10 @@ body{
   display: flexbox;
 }
 
+.puntaje{
+  text-align: center;
+  color: white;
+}
 .pacman {
   height:100rem ;
 }
