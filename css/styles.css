@@ -1,0 +1,31 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: black;
+  color: yellow;
+}
+
+.loguito{
+  align-items: center;
+}
+
+.pacman {
+  height:100rem ;
+}
+
+.pacmanmotion{
+  position: relative;
+  animation: pacman 4s;
+}
+
+@keyframes pacman {
+  0%   {top: 15px;left: 0px;}
+  25%  {top: 15px; left: 200px;}
+  75%  {top: 75px}
+  100% {top: 100px;}
+}
