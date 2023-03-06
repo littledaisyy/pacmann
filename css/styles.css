@@ -11,6 +11,13 @@ body{
   display: flexbox;
 }
 
+.vida{
+  text-align: center;
+}
+.numero{
+  text-align: center;
+  color: white;
+}
 .puntaje{
   text-align: center;
   color: white;
@@ -19,14 +26,26 @@ body{
   height:100rem ;
 }
 
-.pacmanmotion{
+.pacmaan{
   position: relative;
   animation: pacman 4s;
 }
 
 @keyframes pacman {
-  0%   {top: 15px;left: 0px;}
-  25%  {top: 15px; left: 200px;}
-  75%  {top: 75px}
-  100% {top: 100px;}
+  0%, 21%  {top: 240px; left: 120px; rotate:0deg; background-color: rgb(45, 192, 26);}
+  28% {top: 160px; left: 120px; rotate: -90deg; background-color: blue;}
+  34% {top: 160px; left: 200px; rotate: 0deg; background-color: rgb(192, 26, 26);}
+  40% {top: 195px; left: 203px; background-color: white;}
+  45% {top: 195px; left: 318px; rotate: -90deg; background-color: royalblue;}
+  50% {top: 156px; left: 318px; rotate: 0deg;  background-color: rosybrown;}
+  55% {top: 156px; left: 353px; rotate: -90deg; background-color: rebeccapurple;}
+  60% {top: 120px; left: 356px; rotate: 0deg; background-color: teal;}
+  66% {top: 120px; left: 475px; rotate: 0deg; background-color: tomato;}
+  72% {top: 155px; left: 475px; rotate: 0deg; background-color: yellow;}
+  78% {top: 155px; left: 515px; rotate: -90deg; background-color: orangered;}
+  82% {top: 195px; left: 515px; rotate: 0deg; background-color: orchid;}
+  88% {top: 195px; left: 630px; rotate: 0deg; background-color: olive;}
+  96% {top: 155px; left: 630px; rotate: 0deg; background-color: aqua;}
+  97% {top: 155px; left: 710px; rotate: 0px; background-color: salmon;}
+  100% {top: 240px; left: 710px; rotate: 0px; background-color: fuchsia;}
 }
